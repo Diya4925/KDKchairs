@@ -12,3 +12,9 @@
 
 // Created a link to the catalogue or item page in the home page.
 // gonna start working on the databade and seeding after having my breakfast lol...
+
+549;
+// Ceated the SeedData class in models and seeded the database with some infos.
+// Added the seed initializer and now ready to test the program.... finger crossed... It should work.. lets see
+// Yuppieeeee.... it worked 
+// Now just gotta figure out ho wto addthe half-review....
