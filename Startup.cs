@@ -1,4 +1,4 @@
-using chairs.Data;
+﻿using chairs.Data;
 using Microsoft.AspNetCore.Builder;
 using Microsoft.AspNetCore.Hosting;
 using Microsoft.AspNetCore.HttpsPolicy;
@@ -34,6 +34,9 @@ namespace chairs
                 .AddEntityFrameworkStores<ApplicationDbContext>();
             services.AddControllersWithViews();
             services.AddRazorPages();
+
+            services.AddDbContext<chairsContext>(options =>
+                    options.UseSqlServer(Configuration.GetConnectionString("chairsContext")));
         }
 
         // This method gets called by the runtime. Use this method to configure the HTTP request pipeline.
