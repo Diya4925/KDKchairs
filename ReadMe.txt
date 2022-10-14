@@ -9,3 +9,6 @@
 // Did the initial migration using context- , which was sucessfull....
 // Everything is going good this time. I said this time because its my 3rd time restarting from scratch lol
 // Now gonna work on some html css stuff to add some info in the about us and also to add the catalogue page.
+
+// Created a link to the catalogue or item page in the home page.
+// gonna start working on the databade and seeding after having my breakfast lol...
