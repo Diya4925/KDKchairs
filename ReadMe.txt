@@ -18,3 +18,12 @@
 // Added the seed initializer and now ready to test the program.... finger crossed... It should work.. lets see
 // Yuppieeeee.... it worked 
 // Now just gotta figure out ho wto addthe half-review....
+
+10/17 
+// Just added the picture and the css and made it look preety
+// Doing the last minute changes to make the program look more apealing....
+
+947;
+// Added a new field Rating
+// Almost forgot to change the date and time in the footer but did it in last moment.... 
+// Submitting it..

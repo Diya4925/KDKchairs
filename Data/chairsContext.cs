@@ -14,6 +14,6 @@ namespace chairs.Data
         {
         }
 
-        public DbSet<chairs.Models.Chairs> Chairs { get; set; }
+        public DbSet<chairs.Models.Chairs> Chairs { get; set; } // getting the databse ready
     }
 }

@@ -21,14 +21,16 @@ namespace chairs.Models
                     return; //DB has been seeded
                 }
 
-                context.Chairs.AddRange(
+                context.Chairs.AddRange( // Adding the datas and enterying it 
                     new Chairs
                     {
                         Name = "Recliner",
                         Type = "Leathers",
                         Colour = "Dark Brown",
                         Height = "4 feet",
+                        Rating = "R",
                         Price = 49.99M
+                        
                     },
                     new Chairs
                     {
@@ -36,6 +38,7 @@ namespace chairs.Models
                         Type = "Plastic",
                         Colour = "Black and white",
                         Height = "4.5 feet",
+                        Rating = "R",
                         Price = 19.99M
                     },
                     new Chairs
@@ -44,6 +47,7 @@ namespace chairs.Models
                         Type = "Plastic",
                         Colour = "Transparent/Clear",
                         Height = "3 feet",
+                        Rating = "R",
                         Price = 9.99M
                     },
                     new Chairs
@@ -52,6 +56,7 @@ namespace chairs.Models
                         Type = "Wood and fabric",
                         Colour = "Deep Blue",
                         Height = "5 feet",
+                        Rating = "R",
                         Price = 56.99M
                     },
                     new Chairs
@@ -60,6 +65,7 @@ namespace chairs.Models
                         Type = "Leathers",
                         Colour = "Black",
                         Height = "5 feet",
+                        Rating = "R",
                         Price = 69.99M
                     },
                     new Chairs
@@ -68,6 +74,7 @@ namespace chairs.Models
                         Type = "Wood",
                         Colour = "Dark Brown",
                         Height = "1 feet",
+                        Rating = "R",
                         Price = 12.99M
                     },
                     new Chairs
@@ -76,6 +83,7 @@ namespace chairs.Models
                         Type = "Plastic",
                         Colour = "Yellow and Red",
                         Height = "4 feet",
+                        Rating = "R",
                         Price = 9.99M
                     },
                     new Chairs
@@ -84,6 +92,7 @@ namespace chairs.Models
                         Type = "Wood",
                         Colour = "Black",
                         Height = "7 feet",
+                        Rating = "R",
                         Price = 50.45M
                     },
                     new Chairs
@@ -92,6 +101,7 @@ namespace chairs.Models
                         Type = "Fabric and wood",
                         Colour = "Floral print",
                         Height = "3 feet",
+                        Rating = "R",
                         Price = 38.99M
                     },
 
@@ -101,6 +111,7 @@ namespace chairs.Models
                         Type = "Plastic",
                         Colour = "Blue",
                         Height = "3 feet",
+                        Rating = "R",
                         Price = 18.99M
                     }
 

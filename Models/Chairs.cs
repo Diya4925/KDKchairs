@@ -14,5 +14,6 @@ namespace chairs.Models
         public string Colour { get; set; }
         public string Height { get; set; }
         public decimal Price { get; set; }
+        public string Rating { get; set; }
     }
 }

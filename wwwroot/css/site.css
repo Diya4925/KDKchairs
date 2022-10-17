@@ -5,17 +5,19 @@ a.navbar-brand {
   white-space: normal;
   text-align: center;
   word-break: break-all;
+  
 }
 
 /* Provide sufficient contrast against white background */
 a {
-  color: #0366d6;
+    color: #0366d6;
+    
 }
 
 .btn-primary {
   color: #fff;
-  background-color: #1b6ec2;
-  border-color: #1861ac;
+  background-color: #1b6ec2; 
+  border-color: #1b6ec2;
 }
 
 .nav-pills .nav-link.active, .nav-pills .show > .nav-link {
@@ -27,11 +29,14 @@ a {
 /* Sticky footer styles
 -------------------------------------------------- */
 html {
-  font-size: 14px;
+    font-size: 14px;
+    background-color: #FFFF66; /*added a background color  */
+    
 }
 @media (min-width: 768px) {
   html {
     font-size: 16px;
+    font-style: italic;
   }
 }
 
@@ -59,8 +64,9 @@ html {
 }
 
 body {
-  /* Margin bottom by footer height */
-  margin-bottom: 60px;
+    /* Margin bottom by footer height */
+    margin-bottom: 60px;
+    background-color: #FFFF66;
 }
 .footer {
   position: absolute;

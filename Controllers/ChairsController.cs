@@ -54,7 +54,7 @@ namespace chairs.Controllers
         // more details, see http://go.microsoft.com/fwlink/?LinkId=317598.
         [HttpPost]
         [ValidateAntiForgeryToken]
-        public async Task<IActionResult> Create([Bind("Id,Name,Type,Colour,Height,Price")] Chairs chairs)
+        public async Task<IActionResult> Create([Bind("Id,Name,Type,Colour,Height,Price, Rating")] Chairs chairs)
         {
             if (ModelState.IsValid)
             {
